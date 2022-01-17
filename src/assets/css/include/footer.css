@@ -1,7 +1,9 @@
 .content-footer {
-  background-color: #072036;
-  padding: 35px 190px;
-  padding-bottom: 25px;
+  background-color: white;
+  padding: 25px 190px;
+  padding-bottom: 15px;
+  border-top: 1px solid grey;
+  margin-top: 150px;
 }
 .containter-footer {
   width: 50%;
@@ -10,47 +12,67 @@
   display: flex;
 }
 .footer-word {
-  font-family: " ProximaNova";
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 150%;
   letter-spacing: -0.02em;
-  color: #ffffff;
+  color: black;
 }
-.social-part {
+.left-footer {
+  float: left;
+}
+.right-footer {
   float: right;
-}
-.social-img {
-  margin-left: 20px;
 }
 @media only screen and (max-width: 1599px) {
   .content-footer {
-    padding: 35px 90px;
-    padding-bottom: 25px;
+    padding: 25px 90px;
+    padding-bottom: 15px;
   }
 }
-@media only screen and (max-width: 1099px) {
+@media only screen and (max-width: 1299px) {
   .content-footer {
-    padding: 35px 50px;
-    padding-bottom: 25px;
+    padding: 25px 50px;
+    padding-bottom: 15px;
   }
 }
 @media only screen and (max-width: 991px) {
   .content-footer {
-    padding: 35px 20px;
-    padding-bottom: 25px;
+    padding: 25px 20px;
+    padding-bottom: 15px;
   }
+}
+@media only screen and (max-width: 691px) {
   .containter-footer {
     width: 100%;
-    text-align: center;
   }
   .meta {
     display: block;
   }
-  .social-part {
+  .footer-word {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: black;
+  }
+  .left-footer {
     float: none;
-    width: 136px;
+    text-align: center;
     margin: auto;
+  }
+  .right-footer {
+    float: none;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-word {
+    font-size: 12px;
   }
 }

@@ -1,0 +1,121 @@
+.token-content {
+  padding: 0 150px;
+  margin-top: 150px;
+}
+.token-part {
+  display: flex;
+}
+.token-title {
+  font-family: "monospace";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #e91e63;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 45px;
+}
+.token-sm-description {
+  font-family: "monospace";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 21px;
+  margin-bottom: 0;
+}
+.token-price {
+  font-family: "monospace";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 23px;
+}
+.token-left-part {
+  width: 30%;
+}
+.token-right-part {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.token-img {
+  width: 664px;
+}
+@media only screen and (max-width: 1599px) {
+  .token-content {
+    padding: 0 90px;
+  }
+  .token-img {
+    width: 550px;
+  }
+}
+@media only screen and (max-width: 1299px) {
+  .token-content {
+    padding: 0 50px;
+  }
+  .token-left-part {
+    width: 40%;
+  }
+  .token-right-part {
+    width: 60%;
+  }
+  .token-img {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .token-content {
+    padding: 0 20px;
+  }
+  .token-part {
+    display: block !important;
+  }
+  .token-left-part {
+    width: 100%;
+  }
+  .token-right-part {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .token-img {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 691px) {
+  .token-img {
+    width: 400px;
+  }
+  .token-title {
+    font-size: 30px;
+  }
+  .token-sm-description {
+    font-size: 17px;
+  }
+  .token-price {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .token-img {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .token-img {
+    width: 240px;
+  }
+}

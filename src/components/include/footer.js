@@ -8,14 +8,10 @@ function Footer() {
     <div className="content-footer">
       <div className="meta">
         <div className="containter-footer">
-          <p className="footer-word">Powered by Reaffirm</p>
+          <p className="footer-word left-footer">©2021   SPOOKYBOYS COUNTRY CLUB</p>
         </div>
         <div className="containter-footer">
-          <div className="social-part" style={{display:'flex'}}>
-            <img style={{cursor:'pointer'}} src={twitter} />
-            <img style={{cursor:'pointer'}} className="social-img" src={discord} />
-            <img style={{cursor:'pointer'}} className="social-img" src={instagram} />
-          </div>
+          <p className="footer-word right-footer">Not affiliated with Larva Labs</p>
         </div>
 
       </div>

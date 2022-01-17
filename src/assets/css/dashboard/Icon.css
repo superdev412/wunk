@@ -1,0 +1,95 @@
+.icon-content {
+  padding: 0 150px;
+  margin-top: 150px;
+}
+.icon-title {
+  font-family: "monospace";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #e91e63;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 45px;
+}
+.icon-sm-word {
+  font-family: "monospace";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 21px;
+  margin-top: 20px;
+}
+.icon-part {
+  width: 1345px;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+}
+.icon-img {
+  width: 426px;
+}
+.icon-space {
+  margin-left: 30px;
+}
+@media only screen and (max-width: 1599px) {
+  .icon-content {
+    padding: 0 90px;
+    margin-top: 150px;
+  }
+  .icon-img {
+    width: 350px;
+  }
+  .icon-part {
+    width: 1110px;
+  }
+}
+@media only screen and (max-width: 1299px) {
+  .icon-content {
+    padding: 0 50px;
+    margin-top: 150px;
+  }
+  .icon-img {
+    width: 290px;
+  }
+  .icon-space {
+    margin-left: 15px;
+  }
+  .icon-part {
+    width: 900px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .icon-content {
+    padding: 0 20px;
+    margin-top: 70px;
+  }
+  .icon-part {
+    display: block;
+    width: 100%;
+  }
+  .icon-img {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .icon-img {
+    width: 90%;
+  }
+  .icon-title {
+    font-size: 35px;
+  }
+  .icon-sm-word {
+    font-size: 17px;
+  }
+}
